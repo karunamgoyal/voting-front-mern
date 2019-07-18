@@ -15,6 +15,7 @@ export const logout =()=>{
         api.setToken(null);
         dispatch(setCurrentUser({}));
         dispatch(removeError());    
+        
     }
 }
 export const authUser = (path,data) => {
